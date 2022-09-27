@@ -1,2 +1,88 @@
-body { background-color: tomato; 
- max-width: 65ch;}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,500;0,700;1,200;1,300;1,500;1,700&family=Playfair+Display:ital@1&display=swap');
+
+
+body {
+    background-color: #ffffff;
+}
+
+a:link { color: #51E060; }
+a:visited { color: #35903e; }
+a:hover { color: rgb(255, 255, 255); }
+
+p{
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+}
+
+em{
+    font-style: italic;
+    font-weight: 400;
+}
+
+.title {
+    padding:20px 20px 100px 200px;
+    background-color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 350px;
+    line-height: 90%;
+    letter-spacing: -15px;
+    color: #202020;
+}
+
+.star {
+	color: #001AFF;
+}
+
+.author {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #202020;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffffd4;
+    padding:10px 10px 10px 10px;
+      }
+
+.reading {
+    background-color: #001AFF;
+    padding:100px 350px 100px 200px;
+    color: #ffffff;
+}
+
+.readingT {
+    color: #ffffff;
+    padding: 0px 200px 20px 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+}
+
+h3{
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #202020;
+    padding:10px 10px 10px 0px;
+    margin-bottom: 20px;
+}
+
+.response {
+    background-color: #51E060;
+    padding:100px 350px 100px 200px;
+    color: #202020;
+}
+
+.responseT {
+    color: #202020;
+    padding: 0px 200px 20px 10px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #202020;
+}
