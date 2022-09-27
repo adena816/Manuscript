@@ -10,6 +10,11 @@ a:link { color: #51E060; }
 a:visited { color: #35903e; }
 a:hover { color: rgb(255, 255, 255); }
 
+::selection {
+    background: #ffea00;
+    color: #202020
+  }
+
 p{
     font-family: 'Inter Tight', sans-serif;
     font-weight: 200;
@@ -23,8 +28,31 @@ em{
     font-weight: 400;
 }
 
+blockquote{
+    padding:30px 200px 50px 20px;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 115%;
+    color: #51E060;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #ffffff;
+    margin: 40px;
+}
+
+.trial {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 350px;
+    line-height: 250px;
+    color: #ffffff;
+}
+
 .title {
-    padding:20px 20px 100px 200px;
+    padding:20px 20px 100px 150px;
     background-color: #ffffff;
     font-family: 'Playfair Display', serif;
     font-size: 350px;
@@ -52,7 +80,7 @@ em{
 
 .reading {
     background-color: #001AFF;
-    padding:100px 350px 100px 200px;
+    padding:100px 350px 100px 150px;
     color: #ffffff;
 }
 
@@ -75,7 +103,7 @@ h3{
 
 .response {
     background-color: #51E060;
-    padding:100px 350px 100px 200px;
+    padding:100px 350px 100px 150px;
     color: #202020;
 }
 
